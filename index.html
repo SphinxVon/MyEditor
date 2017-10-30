@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./icomoon/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<div id="editor">
+    <div class="edit-control">
+        <div href="javascript:;" class="e-menu-header father">
+            <i class="icon-header"></i>
+            <div class="h-list list" >
+                <p class="title">设置标题</p>
+                <h1><a href="##">H1</a></h1>
+                <h2><a href="##">H2</a></h2>
+                <h3><a href="##">H3</a></h3>
+                <h4><a href="##">H4</a></h4>
+                <h5><a href="##">H5</a></h5>
+                <h6><a href="##">H6</a></h6>
+            </div>
+        </div>
+        <a href="javascript:;" class="e-menu-bold" title="粗体">
+            <i class="icon-bold"></i>
+        </a>
+        <a href="javascript:;" class="e-menu-underline" title="下划线">
+            <i class="icon-underline"></i>
+        </a>
+        <a href="javascript:;" class="e-menu-italic" title="斜体">
+            <i class="icon-italic"></i>
+        </a>
+        <a href="javascript:;" class="e-menu-strikethrough" title="删除线">
+            <i class="icon-strikethrough"></i>
+        </a>
+        <div class="e-menu-paint-brush father">
+            <i class="icon-paint-brush"></i>
+            <div class="brush-list list" >
+                <p class="title">背景色</p>
+                <ul>
+                    <li>
+                        <a href="##" class="c-f40">
+                            <i class="icon-paint-brush"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-0b1">
+                            <i class="icon-paint-brush"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-2bf">
+                            <i class="icon-paint-brush"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-f3c">
+                            <i class="icon-paint-brush"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-000">
+                            <i class="icon-paint-brush"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-bbb">
+                            <i class="icon-paint-brush"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-fff">
+                            <i style="font-style: normal;font-size: 12px">重置</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div  class="e-menu-pencil2 father">
+            <i class="icon-pencil2"></i>
+            <div class="pencil-list list" >
+                <p class="title">字体色</p>
+                <ul>
+                    <li>
+                        <a href="##" class="c-f40">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-0b1">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-2bf">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-f3c">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-000">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-bbb">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-FF0921">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-1FB859">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-FE9FD8">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-18FBFE">
+                            <i class="icon-pencil2"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="##" class="c-fff">
+                            <i style="font-style: normal;font-size: 12px">重置</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="e-menu-image father">
+            <i class="icon-image"></i>
+            <div class="upload-img-list list">
+                <p class="title">
+                    <span class="local active">本地图片</span>
+                    <span class="network">网络图片</span>
+                </p>
+                <a href="javascript:;" class="up-local" >
+                    <!--onclick="getElementById('upload-local').click()"-->
+                    <i class="icon-upload2" onclick="getElementById('upload-local').click()"></i>
+                    <input type="file" id="upload-local" style="height:0;width:0;z-index: -1;background-color: transparent;" autocomplete="off">
+                </a>
+                <div class="up-network">
+                    <input type="url" placeholder="图片链接例:http://img4.duitang.com/uploads/item/201602/14/20160214202926_Kfixa.thumb.224_0.jpeg" id="image-url">
+                    <button id="insert">插入</button>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:;" class="e-menu-play" title="视频">
+            <i class="icon-play"></i>
+        </a>
+        <a href="javascript:;" class="e-menu-undo" title="上一步">
+            <i class="icon-undo"></i>
+        </a>
+        <a href="javascript:;" class="e-menu-redo" title="下一步">
+            <i class="icon-redo"></i>
+        </a>
+        <a href="javascript:;" class="e-menu-quotes-left" title="引用">
+            <i class="icon-quotes-left"></i>
+        </a>
+        <a href="javascript:;" class="e-menu-quotes-right" title="结束引用" style="transform: rotateY(180deg)">
+            <i class="icon-quotes-left" ></i>
+        </a>
+        <div  class="e-menu-link father" >
+            <i class="icon-link"></i>
+            <div class="link-list list">
+                <p class="title" style="font-weight:bold ;border-bottom: 1px solid #000">
+                   链接
+                </p>
+                <div class="link">
+                    <input id="link-title" type="text" placeholder="链接文字">
+                    <input id="link-url" type="url" placeholder="http://...">
+                    <input type="button" value="插入" id="insert-link">
+                </div>
+            </div>
+        </div>
+        <div  class="e-menu-happy father">
+            <i class="icon-happy"></i>
+            <div class="emoji-list list">
+                <p class="title">
+                    表情
+                </p>
+                <div class="emoji"></div>
+            </div>
+        </div>
+        <div  class="e-menu-table2 father" >
+            <i class="icon-table2"></i>
+            <div class="table-list list" id="menu-insert">
+                <p class="title">插入表格</p>
+                <div class="table">
+                    <p style="font-size: 14px">创建一个
+                        <input type="number" id="row" placeholder="0">行
+                        <input type="number" id="col" placeholder="0">列
+                        的表格
+                    </p>
+                    <input type="button" id="insert-table" value="创建">
+                </div>
+                <span class="close"><i class="icon-close"></i></span>
+            </div>
+            <div class="table-list list" id="menu-edit">
+                <p class="title" style="position: relative">编辑表格: <span id="tableID" style="position: absolute;left: 60px;top: 0;color: red"></span></p>
+                <div class="table">
+                    <p  class="edit-item">
+                        <input type="button" value="增加行" id="add-row">
+                        <input type="button" value="删除行" id="del-row">
+                        <input type="button" value="增加列" id="add-col">
+                        <input type="button" value="删除列" id="del-col">
+                    </p>
+                    <p>
+                        <input type="button" value="删除表格" id="del-table">
+                    </p>
+                </div>
+                <span class="close"><i class="icon-close"></i></span>
+            </div>
+        </div>
+        <a href="javascript:;" class="e-menu-justifyLeft" title="左对齐">
+            <i class="icon-justifyLeft"></i>
+        </a>
+        <a href="javascript:;" class="e-menu-justifyCenter" title="居中">
+            <i class="icon-justifyCenter"></i>
+        </a>
+        <a href="javascript:;" class="e-menu-justifyRight" title="右对齐">
+            <i class="icon-justifyRight"></i>
+        </a>
+    </div>
+    <div class="edit-area" contenteditable="true" placeholder="aaa"></div>
+    <div class="edit-btn" >
+        <button id="submit">发表</button>
+    </div>
+</div>
+<div id="text" style="margin: auto;width: 90%"></div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    /* 发表按钮样式 */
+    $('#submit').mousedown(function () {
+        $(this).css({
+            "box-shadow":"none",
+        });
+    }).mouseup(function () {
+        $(this).css({
+            "box-shadow":"inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ hsl(0, 0%, 60%) 0 .1em 3px, hsl(0, 0%, 45%) 0 .3em 1px, /* color border */ rgba(0,0,0,0.2) 0 .5em 5px",
+        });
+    });
+    /* 默认提示文字 */
+    $('.edit-area').html("<p class='tips'>请输入...</p>");
+    $('.edit-area').focus(function () {
+        if($(this).html()!==''){
+            $(this).find('.tips').text('');
+        }
+    });/*.blur(function () {
+        if($(this).html()===''){
+            $(this).html("<p class='tips'>请输入...</p>");
+        }
+    });*/
+    /* tab切换 */
+    $('.network').click(function () {
+       $(this).addClass('active').siblings().removeClass('active');
+       $('.up-network').show().prev().hide()
+    });
+    $('.local').click(function () {
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.up-local').show().next().hide();
+    });
+    /* 表格 */
+    $('.e-menu-table2').click(function (e) {
+       e.stopPropagation();
+        if($(this).hasClass('canEdit')){
+           $('#menu-edit').show();
+       }else{
+           $('#menu-insert').show();
+       }
+
+    });
+    $('#menu-insert').find('.close').click(function (e) {
+        e.stopPropagation();
+        $('#menu-insert').hide();
+    });
+    $('#menu-edit').find('.close').click(function (e) {
+        e.stopPropagation();
+        $('#menu-edit').hide();
+    });
+    //获取编辑器内嵌内容
+    function getContent(el) {
+        var editor = document.getElementsByClassName(el)[0];
+        return editor.innerHTML;
+    }
+    //打印按钮绑定触发事件
+    $('#submit').click(function () {
+        var content = getContent("edit-area");
+        $('#text').html(content);
+    });
+
+
+</script>
+<script src="./js/command.js"></script>
+
+</body>
+</html>
