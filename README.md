@@ -11,7 +11,6 @@
 </head>
 <body>
     <div id="editor"></div>
-    <div id="text" style="margin: auto;width: 90%"></div>
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <script src="./js/command.js"></script>
     <script>
