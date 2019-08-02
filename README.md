@@ -1,4 +1,4 @@
-## VEditor的使用
+### VEditor的使用
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,6 +22,6 @@
 </body>
 </html>
 
-## 可配置toolBar
+### 可配置toolBar
  ['source', 'paragraph', 'undo', 'redo', 'bold', 'italic', 'underline', 'strikethrough', 'lineheight', 'fontfamily', 'fontsize', 'color', 'backgroundcolor', 'indent', 'justifyleft', 'justifyright', 'justifycenter', 'quotesleft', 'quotesright', 'link', 'emoji', 'image']
 
